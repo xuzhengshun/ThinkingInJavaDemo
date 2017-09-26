@@ -13,5 +13,6 @@ public class Third_1 {
 	public static void main(String[] args) {
 		print("你好");
 		print(new Date());
+		System.out.println(1+5);
 	}
 }
