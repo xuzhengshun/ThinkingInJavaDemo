@@ -27,6 +27,8 @@ public class Third_3_4 {
 		
 		print(2>>>2);
 	}
+	
+	
 }
 class Tank{
 	int level;
