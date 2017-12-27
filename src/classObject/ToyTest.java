@@ -9,7 +9,7 @@ public class ToyTest {
 	public static void main(String[] args) {
 		Class c = null;
 		try {
-			
+			// xzs  test git
 			c = Class.forName("classObject.FancyToy");
 			System.exit(1);
 		}catch (ClassNotFoundException e) {
