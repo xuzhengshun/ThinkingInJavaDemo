@@ -34,4 +34,7 @@ public class ToyTest {
 		}
 		printINfo(obj.getClass());
 	}
+	public void gitTest1(){
+		
+	}
 }
