@@ -2,15 +2,13 @@ package classObject;
 
 public class ToyTest {
 	static void printINfo(Class cc) {
-		//xzsGite test
-		System.out.println("Class name 类名：:" + cc.getName() + "is interface 是不是接口? [" + cc.isInterface() + "]");
 		System.out.println("Simple name 简称:" + cc.getCanonicalName());
 		System.out.println("Canonical  name 规范名称:" + cc.getCanonicalName());
 	}
 	public static void main(String[] args) {
 		Class c = null;
 		try {
-			
+			// xzs  test git
 			c = Class.forName("classObject.FancyToy");
 			System.exit(1);
 		}catch (ClassNotFoundException e) {
@@ -35,6 +33,9 @@ public class ToyTest {
 			System.exit(1);
 		}
 		printINfo(obj.getClass());
+	}
+	public void gitTest1(){
+		
 	}
 	public void gitTest2(){
 	}
